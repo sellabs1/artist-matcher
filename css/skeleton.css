@@ -49,6 +49,10 @@
     top: 60px !important;
     transform: translateY(0%) !important;
   }
+  #my-popup .container{
+    width: 80% !important;
+    top: 10px !important;
+  }
   .content:last-child{
     margin-top: 5px;
   }
