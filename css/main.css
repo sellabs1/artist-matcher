@@ -1,0 +1,92 @@
+body{
+	background-color: rgb(251, 251, 251);
+	font: 20px montserrat;
+	height: 100%;
+}
+.page-wrap{
+	min-height: 99%;
+	position: relative;
+}
+.wrapper{
+	height: 370px;
+	top: 50%;
+  	transform: translateY(-50%);
+  	color: rgb(251, 251, 251);
+}
+.content{
+	border-radius: 12px;
+	border: 12px solid rgb(241, 158, 71);
+	background-color: rgb(56, 55, 55);
+	min-height: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+.content h4{
+	padding-top: 25px;
+}
+.content input, select{
+	color: #A3A3A3;
+}
+.header{
+	height: 60px;
+	padding: 10px 0px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 10;
+	border-bottom: 2px solid rgb(207, 118, 26);
+	background-color: rgb(241, 158, 71);
+}
+.header p{
+	font-family: jaapokki;
+	font-size: 48px;
+	color: rgb(251, 251, 251);
+	text-shadow: 2px 2px 4px black;
+}
+.center{
+	text-align: center;
+}
+.info{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	height: 40px;
+	width: 40px;
+	background: url("../images/info-icon.png") center no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.artist-input{
+	width: 80%;
+	margin: 20px 10% 0px;
+}
+#artist-submit{
+	margin-top: 26px;
+}
+.list-wrap{
+	width:70%;
+	margin: 25px auto;
+}
+.list-wrap a{
+	text-decoration: none;
+}
+#my-popup{
+	box-shadow: 2px 2px 4px rgb(158, 158, 158);
+	border-radius: 20px;
+	display: none;
+	height: 300px;
+	width: 300px;
+	background-color: rgb(251, 251, 251);
+	color: rgb(48, 48, 48);
+	padding: 10px;
+}
+#my-popup p{
+	font-size: 16px;
+}
+#my-popup h4{
+	text-decoration: underline;
+}
+.popup_visible #my-popup {
+  transform: scale(1);
+}

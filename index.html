@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Artist Matcher</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="scripts/jquery-1.11.1.min.js"></script>
+	<script src="http://vast-engineering.github.io/jquery-popup-overlay/jquery.popupoverlay.js"></script>
+	<script src="scripts/music-matcher.js"></script>
+	<script src="scripts/effects.js"></script>
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="header">
+		<p class="center">Artist Matcher</p>
+		<div class="info"></div>
+	</div>
+	<div class="container wrapper">
+		<div class="row">
+			<div class="one-half column content" id="search-artist">
+				<h4 class="center">Enter an artist you like...</h4>
+				
+				<input type="text" class="artist-input" placeholder="Artist"><br>
+				<select name="num-of-results" id="num-results" class="artist-input">
+					<option value="" disabled selected>Number of results</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+				<div class="center">
+					<button id="artist-submit" class="button-primary" onclick="options.getSimilarArtists()">Search</button>
+				</div>
+				
+			</div>
+			<div class="one-half column content" id="search-results">
+				<h4 class="center">Suggestions</h4>
+				<div class="list-wrap"></div>
+			</div>
+		</div>
+	</div>
+	<div id="my-popup">
+		<div class="container">
+			<h4 class="center">Note</h4>
+			<p>This app uses the <a href="http://www.last.fm/home">last.fm</a> API.</p>
+			<p>Sometimes this can be a little buggy, and won't return any results for the specified artist.</p>
+			<p>Try specifying a different result number, and try again.</p> 
+		</div>
+	</div>
+</html>

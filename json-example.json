@@ -1,0 +1,154 @@
+{
+  "similarartists": {
+    "artist": [
+      {
+        "name": "Conan",
+        "mbid": "36bceadf-9a98-4f1c-b730-3edebb02e774",
+        "match": "1",
+        "url": "www.last.fm/music/Conan",
+        "image": [
+          {
+            "#text": "http://userserve-ak.last.fm/serve/34/96857425.jpg",
+            "size": "small"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/64/96857425.jpg",
+            "size": "medium"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/126/96857425.jpg",
+            "size": "large"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/252/96857425.jpg",
+            "size": "extralarge"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/500/96857425/Conan.jpg",
+            "size": "mega"
+          }
+        ],
+        "streamable": "0"
+      },
+      {
+        "name": "Bongzilla",
+        "mbid": "fb7659b2-5ceb-45ac-be95-b0c1f832caec",
+        "match": "0.94677",
+        "url": "www.last.fm/music/Bongzilla",
+        "image": [
+          {
+            "#text": "http://userserve-ak.last.fm/serve/34/23785451.jpg",
+            "size": "small"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/64/23785451.jpg",
+            "size": "medium"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/126/23785451.jpg",
+            "size": "large"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/252/23785451.jpg",
+            "size": "extralarge"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/500/23785451/Bongzilla+bongolihic.jpg",
+            "size": "mega"
+          }
+        ],
+        "streamable": "0"
+      },
+      {
+        "name": "Cough",
+        "mbid": "dd26fe97-f168-4c82-a846-5e64079704eb",
+        "match": "0.919049",
+        "url": "www.last.fm/music/Cough",
+        "image": [
+          {
+            "#text": "http://userserve-ak.last.fm/serve/34/51926665.jpg",
+            "size": "small"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/64/51926665.jpg",
+            "size": "medium"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/126/51926665.jpg",
+            "size": "large"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/252/51926665.jpg",
+            "size": "extralarge"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/500/51926665/Cough.jpg",
+            "size": "mega"
+          }
+        ],
+        "streamable": "0"
+      },
+      {
+        "name": "Weedeater",
+        "mbid": "700f0813-e644-4d2a-873d-62fb113d1e5d",
+        "match": "0.90019",
+        "url": "www.last.fm/music/Weedeater",
+        "image": [
+          {
+            "#text": "http://userserve-ak.last.fm/serve/34/2157100.jpg",
+            "size": "small"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/64/2157100.jpg",
+            "size": "medium"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/126/2157100.jpg",
+            "size": "large"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/252/2157100.jpg",
+            "size": "extralarge"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/_/2157100/Weedeater.jpg",
+            "size": "mega"
+          }
+        ],
+        "streamable": "0"
+      },
+      {
+        "name": "YOB",
+        "mbid": "0dd6d8d0-e132-4f54-9b9e-175ea149aeb1",
+        "match": "0.862228",
+        "url": "www.last.fm/music/YOB",
+        "image": [
+          {
+            "#text": "http://userserve-ak.last.fm/serve/34/88384361.png",
+            "size": "small"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/64/88384361.png",
+            "size": "medium"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/126/88384361.png",
+            "size": "large"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/252/88384361.png",
+            "size": "extralarge"
+          },
+          {
+            "#text": "http://userserve-ak.last.fm/serve/500/88384361/YOB+_.png",
+            "size": "mega"
+          }
+        ],
+        "streamable": "0"
+      }
+    ],
+    "@attr": {
+      "artist": "Bongripper"
+    }
+  }
+}
