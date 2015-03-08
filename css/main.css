@@ -87,6 +87,9 @@ body{
 #my-popup h4{
 	text-decoration: underline;
 }
+#my-popup a:hover{
+	color: black;
+}
 .popup_visible #my-popup {
   transform: scale(1);
 }
